@@ -1,9 +1,15 @@
 def calculate_sum(a, b):
-    result=a+b  # Missing spaces (style issue)
-    password = "hardcoded123"  # Security issue
+    '''Calculate sum of two numbers'''
+    result = a + b  # Fixed spacing
     return result
 
-def unused_function():
-    # This will trigger a warning
-    x = 1
-    y = 2
+def calculate_product(a, b):
+    '''Calculate product of two numbers'''
+    return a * b
+
+def process_list(items):
+    # New function with potential issues
+    total = 0
+    for i in items:
+        total = total + i
+    return total
