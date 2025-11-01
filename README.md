@@ -1,2 +1,3 @@
-# test-pr-review
-Repo for testing the ai-pr-review system
+# Test PR Review Repository
+
+This repository is for testing the AI PR Review Agent.
