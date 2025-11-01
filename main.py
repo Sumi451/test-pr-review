@@ -1,6 +1,6 @@
 def calculate_sum(a, b):
     '''Calculate sum of two numbers'''
-    result = a + b  # Fixed spacing
+    result = a + b
     return result
 
 def calculate_product(a, b):
@@ -8,7 +8,7 @@ def calculate_product(a, b):
     return a * b
 
 def process_list(items):
-    # New function with potential issues
+    # Missing type hints - style issue
     total = 0
     for i in items:
         total = total + i
