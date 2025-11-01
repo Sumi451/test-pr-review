@@ -1,6 +1,5 @@
 def process_data(data):
     '''Process the data'''
-    # TODO: Add validation
     result = []
     for item in data:
         if item > 0:
@@ -8,7 +7,7 @@ def process_data(data):
     return result
 
 def divide(a, b):
-    # Missing error handling for division by zero
+    # Missing error handling - potential issue
     return a / b
 
 class DataProcessor:
@@ -17,3 +16,7 @@ class DataProcessor:
     
     def add(self, item):
         self.data.append(item)
+    
+    def process(self):
+        # TODO: Implement processing logic
+        pass
