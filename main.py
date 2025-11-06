@@ -1,6 +1,6 @@
 def calculate_sum(a, b):
-    result=a+b  # Missing spaces (style issue)
-    password = "hardcoded123"  # Security issue
+    '''Calculate sum of two numbers'''
+    result = a + b
     return result
 
 def unused_function():
