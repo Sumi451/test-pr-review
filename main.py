@@ -3,7 +3,7 @@ def calculate_sum(a, b):
     result = a + b
     return result
 
-def unused_function():
-    # This will trigger a warning
-    x = 1
-    y = 2
+def divide(a,b):
+    return a/0
+
+
